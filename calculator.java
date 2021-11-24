@@ -6,13 +6,19 @@ public class calculator{
 
 		System.out.println(result);
 	}
+	
 	static int sum(int x,int y)
 	{
 		return x+y;
 	}
-static int mul(int x,int y)
+ 	
+ 	static int mul(int x,int y)
 	{
 		return x+y;
+	}
+
+	static int div (int x,  int y){
+		return x/y;
 	}
 
 	
